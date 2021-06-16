@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/cover"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="myNotesApp"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Your Notes with You"
+            android:textColor="#222831"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="60dp" />
+
+        <TextView
+            android:id="@+id/nodeDetailsContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priyanshu Kansal"
+            android:textColor="@color/white"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="155dp"/>
+        <TextView
+            android:id="@+id/nodeDetailsContent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="p.kansal.80lpa@gmail.com"
+            android:textColor="@color/white"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="173.5dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
